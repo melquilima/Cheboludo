@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+
+/* ========================================================Global*/
+.container{
+    width: 360px ;
+    height: 670px;
+    background: url("./back1.jpg");
+    font-family: poppins, sans-serif;
+    color: white;
+}
+
+
+/* ========================================================Nav*/
+.nav{
+    position: absolute;
+    position: fixed;
+    margin-left: 40px;
+    margin-top: 610px;
+    width: 280px;
+    height: 29px;
+    border-radius: 45px;
+    background-color: #74adde7e;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin: 7px;
+}
+
+
+
+/* ========================================================Home*/
+.home{
+    text-align: center;
+}
+
+.home img{
+    width: 250px;
+    margin-top: 30px;
+}
+
+.home h1{
+    font-weight: lighter;
+}
+
+.home p{
+    font-size: 25px;
+}
+
+.social-midea{
+    margin-left: 85px;
+    margin-top: 30px;
+}
+
+.social-midea img{
+    width: 50px;
+    margin: 20px;
+    
+}
+
+
+/* ========================================================Sobre*/
+.sobre{
+    display: inline-block;
+}
+
+
+.sobre img{
+    width: 70px;
+    height: 83.72px;
+    margin: 30px;
+}
+
+.sobre  h2{
+   float: right;
+   margin-top: 45px;
+  margin-right: 45px;
+}
+
+.texto-sobre{
+    width: 272px;
+    height: 418px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.sobre p{
+    text-align: center;
+    margin-top: 18px;
+}
+
+/* ========================================================Loja*/
+.loja{
+    display: inline-block;
+}
+
+.loja img{
+    width: 70px;
+    height: 83.72px;
+    margin: 30px;
+}
+
+.loja  h2{
+   float: right;
+   margin-top: 30px;
+  margin-right: 45px;
+}
+
+.texto-loja{
+    width: 272px;
+    height: 250px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.loja p{
+    text-align: center;
+    margin-top: 18px;
+}
+
+
+.ifood{
+    width: 280px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.ifood img{
+    width: 50px;
+    margin: 20px;
+    margin: 16px;
+    
+    
+}
+
+
+
+/* ========================================================Contact*/
+
+.contact{
+    text-align: center;
+}
+
+.contact img{
+    width: 120px;
+    margin-top: 30px ;
+}
+
+.titulo{
+    padding-top: 20px;
+}
+
+
+form{
+    background-color: #74adde7e;
+    width: 280px;
+    height: 370px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+input{
+    width: 214px;
+    margin-top: 30px;
+   background: none;
+   border: none;
+   border-bottom: solid 2px white;
+   color: white;
+}
+
+
+textarea{
+    width: 214px;
+    height: 100px;
+    margin-top: 30px;
+    background: none;
+    color: white;
+    border: solid 2px white;
+}
+
+.enviar{
+    margin-top: 30px;
+    border: solid 2px white;
+    background: white;
+    color: #74adde;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.534) 3px 3px;
+}
+
